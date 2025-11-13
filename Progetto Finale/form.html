@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gestisci Contatto</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <header class="main-header">
+      <div class="container">
+        <h1 id="form-title">Aggiungi Contatto</h1>
+        <nav>
+          <a href="index.html">Lista</a>
+          <a href="form.html" class="active">Aggiungi</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container">
+      <form id="contact-form">
+        <div class="form-group">
+          <label for="name">Nome</label>
+          <input type="text" id="name" required />
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" required />
+        </div>
+        <button type="submit" class="btn">Salva</button>
+      </form>
+    </main>
+
+    <script src="assets/js/form.js"></script>
+  </body>
+</html>
